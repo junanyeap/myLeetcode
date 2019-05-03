@@ -1,9 +1,22 @@
-#include <stdio.h>
+// note:
+// 0 ≤ x, y < 2^31.
 
-int hammingDistance(int x, int y){
+#include <stdio.h>
+#include <string.h>
+int addZero(char* binary,int num){
     ;
 }
-int main(){
-    int x = 0, y = 0;
 
+char decToBinary(int num){
+    ;
+}
+int hammingDistance(int x, int y){
+    
+}
+int main(){
+    int x;
+    int y;
+    printf("Hamming Distance Calc ");
+    scanf("%d %d",&x,&y);
+    hammingDistance(x,y);
 }
